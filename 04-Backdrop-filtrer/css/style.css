@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+body{
+    margin:0;
+    height: 100vh;
+    background: url(../images/fondo1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div{
+    width: 100%;
+    height: 100vh;
+    /* background: red; */
+    backdrop-filter: blur(15px); /*Hace difuminado el fondo*/
+    backdrop-filter: brightness(20%); /* Opaca el fondo*/
+    /*Diferentes filtros
+    backdrop-filter: contrast(20%);
+    backdrop-filter: grayscale(20%);
+    backdrop-filter: hue-rotate(20%);
+    backdrop-filter: invert(20%);
+    backdrop-filter: opacity(20%);
+    backdrop-filter: sepia(20%);
+    backdrop-filter: saturate(20%);
+    */
+}
+h1{
+    text-align: center;
+    line-height: 100vh;
+    font-size: 80px;
+    color: white;
+}
